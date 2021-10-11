@@ -29,17 +29,14 @@ namespace Cap8_And_Cap9
         char aux1, aux2;
         int p1, p2;
 
-
-
-        private void MMG(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-          
-            string []auxCad1 = new string[2];
+            string[] auxCad1 = new string[2];
             string Cad1 = TextCad1.Text;
-           
+
             char[] ArrayCad1 = Cad1.ToArray();
             //IMPRIMIR
-            for (int i = 1; i<3; i++)
+            for (int i = 1; i < 3; i++)
             {
                 aux1 = ArrayCad1[i];
                 p1 = i - 1;
@@ -49,13 +46,13 @@ namespace Cap8_And_Cap9
                     ArrayCad1[p1 + 1] = ArrayCad1[p1];
                     p1 = p1 - 1;
                 }
-                if(ArrayCad1[p1] <= aux1)
+                if (ArrayCad1[p1] <= aux1)
                     ArrayCad1[p1 + 1] = aux1;
                 else
                 {
                     ArrayCad1[p1 + 1] = ArrayCad1[p1];
                     ArrayCad1[p1] = aux1;
-                }    
+                }
             }
             auxCad1[0] = new string(ArrayCad1);
             ResCad1.Text = auxCad1[0];
@@ -72,7 +69,7 @@ namespace Cap8_And_Cap9
                 aux1 = ArrayCad2[i];
                 p1 = i - 1;
 
-                while (aux2< ArrayCad2[p2] && p2 >= 1)
+                while (aux2 < ArrayCad2[p2] && p2 >= 1)
                 {
                     ArrayCad2[p2 + 1] = ArrayCad2[p2];
                     p2 = p2 - 1;
@@ -87,8 +84,6 @@ namespace Cap8_And_Cap9
             }
             auxCad2[0] = new string(ArrayCad2);
             ResCad2.Text = auxCad2[0];
-
-
         }
     }
 }

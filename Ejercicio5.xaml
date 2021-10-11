@@ -9,7 +9,7 @@
     <Grid>
         <Label Content="Digite la cadena1:" HorizontalAlignment="Left" Margin="64,69,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="TextCad1" HorizontalAlignment="Left" Margin="173,73,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
-        <Button Content="MMG" HorizontalAlignment="Left" Margin="330,85,0,0" VerticalAlignment="Top" Click="MMG"/>
+        <Button Content="Compilar" HorizontalAlignment="Left" Margin="330,85,0,0" VerticalAlignment="Top" Click="Button_Click"+/>
         <Label Content="Digite la cadena2:" HorizontalAlignment="Left" Margin="64,100,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="TextCad2" HorizontalAlignment="Left" Margin="173,104,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="ResCad1" HorizontalAlignment="Left" Margin="233,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
