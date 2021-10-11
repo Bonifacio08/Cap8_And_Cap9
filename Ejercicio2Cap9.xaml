@@ -1,0 +1,21 @@
+﻿<Window x:Class="Cap8_And_Cap9.Ejercicio2Cap9"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cap8_And_Cap9"
+        mc:Ignorable="d"
+        Title="Ejercicio2Cap9" Height="364" Width="266">
+    <Grid>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="68,46,0,0" VerticalAlignment="Top"/>
+        <Label Content="Apellido" HorizontalAlignment="Left" Margin="68,94,0,0" VerticalAlignment="Top"/>
+        <Label Content="Tipo de cuent" HorizontalAlignment="Left" Margin="68,150,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cantidad en efectivo" HorizontalAlignment="Left" Margin="68,199,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TextNombre" HorizontalAlignment="Left" Margin="68,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextApellido" HorizontalAlignment="Left" Margin="68,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextTipoDeCuenta" HorizontalAlignment="Left" Margin="68,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextCantidadEfectivo" HorizontalAlignment="Left" Margin="67,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="GUARDAR" HorizontalAlignment="Left" Margin="38,263,0,0" VerticalAlignment="Top" Height="28" Width="180" Background="#FF33ECCA" Click="GUARDAR"/>
+
+    </Grid>
+</Window>

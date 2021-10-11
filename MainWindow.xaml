@@ -1,0 +1,27 @@
+﻿<Window x:Class="Cap8_And_Cap9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cap8_And_Cap9"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Menu Height="18">
+                <MenuItem Header="Capitulo 8">
+                    <MenuItem  Header="Ejercicio 3" Click="Ejec3_Clik" />
+                    <MenuItem  Header="Ejercicio 5" Click="Ejec5_Click"/>
+                </MenuItem>
+
+                <MenuItem Header="Capitulo 9" >
+                    <MenuItem Header="Ejercicio 1" Click="Ejercicio1Cap9" />
+                    <MenuItem Header="Ejercicio 2" Click="Ejercicio2Cap9"/>
+
+                </MenuItem>
+
+              
+            </Menu>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+﻿<Window x:Class="Cap8_And_Cap9.Ejercicio3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cap8_And_Cap9"
+        mc:Ignorable="d"
+        Title="Ejercicio_3" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="LbHora" Content="" HorizontalAlignment="Left" Margin="144,0,0,0" VerticalAlignment="Center" FontSize="48" Background="Transparent" FontWeight="Bold" Foreground="#FF1ABFE4"/>
+        <Button Content="Buscar" HorizontalAlignment="Left" Margin="363,47,0,0" VerticalAlignment="Top" Click="BtnBuscar"/>
+    </Grid>
+</Window>
